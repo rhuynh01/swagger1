@@ -1,0 +1,29 @@
+D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1>swagger project start
+Starting: D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\app.js...
+  project started here: http://localhost:10010/
+  project will restart on changes.
+  to restart at any time, enter `rs`
+try this:
+curl http://127.0.0.1:10010/hello?name=Scott
+TypeError: Cannot read property 'name' of undefined
+    at hello (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\api\controllers\hello_world.js:39:33)
+    at swagger_router (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\swagger-node-runner\fittings\swagger_router.js:104:13)
+    at Runner.<anonymous> (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\bagpipes\lib\bagpipes.js:171:7)
+    at bound (domain.js:415:14)
+    at Runner.runBound (domain.js:428:12)
+    at Runner.pipeline (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:72:17)
+    at Runner.flow (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:223:19)
+    at Pipeworks.flow (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:135:17)
+    at Pipeworks.siphon (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:186:19)
+    at Runner.<anonymous> (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\bagpipes\lib\bagpipes.js:98:22)
+TypeError: Cannot read property 'name' of undefined
+    at hello (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\api\controllers\hello_world.js:39:33)
+    at swagger_router (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\swagger-node-runner\fittings\swagger_router.js:104:13)
+    at Runner.<anonymous> (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\bagpipes\lib\bagpipes.js:171:7)
+    at bound (domain.js:415:14)
+    at Runner.runBound (domain.js:428:12)
+    at Runner.pipeline (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:72:17)
+    at Runner.flow (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:223:19)
+    at Pipeworks.flow (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:135:17)
+    at Pipeworks.siphon (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\pipeworks\pipeworks.js:186:19)
+    at Runner.<anonymous> (D:\Projects\node.js - Comple Node.js Developer Course - Andrew Mead\swagger1\node_modules\bagpipes\lib\bagpipes.js:98:22)
